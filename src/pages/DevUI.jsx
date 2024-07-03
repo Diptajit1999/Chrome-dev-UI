@@ -9,7 +9,7 @@ import TextField from '@mui/material/TextField';
 import Checkbox from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Button from '@mui/material/Button';
-import { useTheme } from '@mui/material/styles';
+
 import OutlinedInput from '@mui/material/OutlinedInput';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -24,7 +24,7 @@ const DevUi = () => {
   const [hideDataUrls, setHideDataUrls] = useState(false);
   const [hideExtensionUrls, setHideExtensionUrls] = useState(false);
   const [requestType, setRequestType] = useState('All');
-  const theme = useTheme();
+  
 
   const handleFilterChange = (event) => {
     setFilter(event.target.value);

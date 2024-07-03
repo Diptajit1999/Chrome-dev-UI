@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from 'react';
+import React from 'react';
 // import NetworkRequestList from './components/NetworkRequestList';
 // import RequestDetails from './components/RequestDetails';
 // import Filter from './components/Filter';
@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 import NetworkPage from "./pages/NetworkPage";
 import DevUi from "./pages/DevUI";
 function App() {
-  const [selectedRequestId, setSelectedRequestId] = useState(null);
+  
 
   return (
     <div className="App">

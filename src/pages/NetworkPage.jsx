@@ -3,7 +3,7 @@ import { TextField, Button, Box } from '@mui/material';
 
 const NetworkPage = () => {
   const [url, setUrl] = useState("");
-  const [data, setData] = useState([]);
+  
 
   const handleClick = async () => {
     try {
